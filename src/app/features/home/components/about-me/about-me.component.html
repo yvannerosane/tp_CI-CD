@@ -1,0 +1,20 @@
+<section class="section" id="about-me">
+  <div class="about-me">
+    <h3 class="about-me__title">
+      <span class="about-me__title--test" translate>Presentation</span>
+  </h3>
+  <span class="about-me__description" translate> Etudiante a UISJ depuis bientot 4 ans</span>
+  <span class="about-me__subdescription" translate> le cours de CI/CD, permet d'apprendre beaucoup de choses</span>
+  <ul class="about-me__skills">
+    <ng-container *ngFor="let item of skillsList | translate">
+      <li class="about-me__skills--item">
+        {{ item}}
+      </li>
+    </ng-container>
+  </ul>
+  </div>
+  <br>
+  <div class="about-me__img">
+    <img src="assets/img/yvy.png" alt="BOYAMA YVANNE">
+  </div>
+</section>
